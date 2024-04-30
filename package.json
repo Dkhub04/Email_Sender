@@ -1,0 +1,38 @@
+{
+  "name": "email_sender",
+  "version": "1.0.0",
+  "description": "Email-Sender FrontEnd",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Dkhub04/Email_Sender)"
+  },
+  "keywords": [
+    "React",
+    "Tailwind",
+    "FrontEnd"
+  ],
+  "author": "Karthik",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.38",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
